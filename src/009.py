@@ -18,7 +18,7 @@ class MyQueue(object):
 
     def queue_out(self):
         if self.stack2:
-            return  self.stack2.pop()
+            return self.stack2.pop()
         else:
             while self.stack1:
                 v = self.stack1.pop()
