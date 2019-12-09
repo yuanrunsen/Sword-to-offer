@@ -16,5 +16,4 @@ def max_not_repeat_str(strings):
             start = record + 1
         records[strings[end]] = end  # 记录每个出现的字符的最后位置
         end += 1
-    print(strings[start:end+1])
     return max_len
