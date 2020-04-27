@@ -56,8 +56,6 @@ class Queue(object):
                         self.storage_sup = self.storage_sup[:i+1]
                         self.storage_sup[-1] = value
                         break
-                    if i == len(self.storage_sup)-1:
-                        self.storage_sup.append(value)
 
     def get(self):
         value = self.storage.get()
